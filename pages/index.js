@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home() {
+function Blog({ repos, author }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -8,75 +8,83 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <div className="flex w-full mb-20 flex-wrap">
+      <h1 className="sm:text-5xl text-6xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 animate-bounce	">Hillwood High <span className="text-green-400">S</span><span className="text-blue-400">T</span><span className="text-red-400">E</span><span className="text-yellow-400">M</span></h1>
+      <p className="lg:pl-6 lg:w-2/3 mx-auto text-xl leading-relaxed ">Where {" "} 
+      <span className="hover:text-green-500	">c</span>
+      <span className="hover:text-red-500	">r</span>
+      <span className="hover:text-blue-500 ">e</span>
+      <span className="hover:text-yellow-500 	">a</span>
+      <span className="hover:text-green-600 ">t</span>
+      <span className="hover:text-red-600 ">i</span>
+      <span className="hover:text-blue-600 	">v</span>
+      <span className="hover:text-yellow-600 	">e</span> {" "}
+       dreamers come to learn their crafts. Creating extraordinary things with <span className="hover:text-green-500 ">Science</span>, <span className="hover:text-blue-500">Technology</span>, <span className="hover:text-red-500">Engineering</span>, and <span className="hover:text-yellow-500">Math</span>, . While also solving amazing problems, all as a <span className="hover:text-yellow-500">Community</span>!</p>
+    </div>
+    <div className="flex flex-wrap md:-m-2 -m-1">
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300" />
         </div>
-      </main>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301" />
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full h-full object-cover object-center block animate-pulse" src="https://dummyimage.com/600x360" />
+        </div>
+      </div>
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <img alt="gallery" className="w-full h-full object-cover object-center block animate-pulse" src="https://dummyimage.com/601x361" />
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302" />
+        </div>
+        <div className="md:p-2 p-1 w-1/2">
+          <img alt="gallery" className="w-full object-cover h-full object-center block " src="https://dummyimage.com/503x303" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+
+
+      {/* <footer className="flex items-center justify-center w-full h-10 border-t">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Powered by Linux
         </a>
-      </footer>
+      </footer> */}
     </div>
-  )
+  )}
+
+// This function gets called at build time on server-side.
+// It won't be called on client-side, so you can even do
+// direct database queries. See the "Technical details" section.
+export async function getStaticProps() {
+  // Call an external API endpoint to get posts.
+  // You can use any data fetching library
+  const res = await fetch('https://api.github.com/users/Hillwood-High-Robotics/repos')
+  const repos = await res.json()
+
+  const res2 = await fetch('https://api.github.com/users/Hillwood-High-Robotics')
+  const author = await res2.json()
+  // By returning { props: { posts } }, the Blog component
+  // will receive `posts` as a prop at build time
+  return {
+    props: {
+      repos,
+      author
+    },
+  }
 }
+
+export default Blog
