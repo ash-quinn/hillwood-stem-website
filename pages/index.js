@@ -4,7 +4,7 @@ function Blog({ repos, author }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Hillwood STEM</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -22,7 +22,7 @@ function Blog({ repos, author }) {
       <span className="hover:text-red-600 ">i</span>
       <span className="hover:text-blue-600 	">v</span>
       <span className="hover:text-yellow-600 	">e</span> {" "}
-       dreamers come to learn their crafts. Creating extraordinary things with <span className="hover:text-green-500 ">Science</span>, <span className="hover:text-blue-500">Technology</span>, <span className="hover:text-red-500">Engineering</span>, and <span className="hover:text-yellow-500">Math</span>, . While also solving amazing problems, all as a <span className="hover:text-yellow-500">Community</span>!</p>
+       dreamers come to learn their crafts. Creating extraordinary things with <span className="hover:text-green-200 text-green-500 font-bold">Science</span>, <span className="hover:text-blue-200 text-blue-500 font-bold">Technology</span>, <span className="hover:text-red-200 text-red-500 font-bold">Engineering</span>, and <span className="hover:text-yellow-200 text-yellow-500 font-bold">Math</span>, . While also solving amazing problems, all as a <span className="hover:text-yellow-500">Community</span>!</p>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
@@ -45,6 +45,57 @@ function Blog({ repos, author }) {
         </div>
         <div className="md:p-2 p-1 w-1/2">
           <img alt="gallery" className="w-full object-cover h-full object-center block " src="https://dummyimage.com/503x303" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap w-full mb-20">
+      <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Read our Blog!</h1>
+        <div className="h-1 w-20 bg-indigo-500 rounded" />
+      </div>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Our blog is a place where all of our blog posts live, a place to see what exactly we do in this STEM class. This includes Engineering, Robotics, and ART</p>
+    </div>
+    <div className="flex flex-wrap -m-4">
+
+
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100  hover:bg-gray-50 p-6 rounded-lg">
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+
+
+
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100 hover:bg-gray-50 p-6 rounded-lg">
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
+          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100 hover:bg-gray-50 p-6 rounded-lg">
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content" />
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
+          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100 hover:bg-gray-50 p-6 rounded-lg">
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
     </div>
