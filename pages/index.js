@@ -13,16 +13,16 @@ function Blog({ repos, author }) {
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">
       <h1 className="sm:text-5xl text-6xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 animate-bounce	">Hillwood High <span className="text-green-400">S</span><span className="text-blue-400">T</span><span className="text-red-400">E</span><span className="text-yellow-400">M</span></h1>
-      <p className="lg:pl-6 lg:w-2/3 mx-auto text-xl leading-relaxed ">Where {" "} 
-      <span className="hover:text-green-500	">c</span>
-      <span className="hover:text-red-500	">r</span>
-      <span className="hover:text-blue-500 ">e</span>
-      <span className="hover:text-yellow-500 	">a</span>
-      <span className="hover:text-green-600 ">t</span>
-      <span className="hover:text-red-600 ">i</span>
-      <span className="hover:text-blue-600 	">v</span>
-      <span className="hover:text-yellow-600 	">e</span> {" "}
-       dreamers come to learn their crafts. Creating extraordinary things with <span className="hover:text-green-200 text-green-500 font-bold">Science</span>, <span className="hover:text-blue-200 text-blue-500 font-bold">Technology</span>, <span className="hover:text-red-200 text-red-500 font-bold">Engineering</span>, and <span className="hover:text-yellow-200 text-yellow-500 font-bold">Math</span>, . While also solving amazing problems, all as a <span className="hover:text-yellow-500">Community</span>!</p>
+      <p className="lg:pl-6 lg:w-2/3 mx-auto text-xl leading-relaxed ">
+        
+        Where creative dreamers come to learn their crafts. 
+        Creating extraordinary things with 
+        <span className="hover:text-green-200 text-green-500 font-bold">Science</span>,
+        <span className="hover:text-blue-200 text-blue-500 font-bold">Technology</span>,
+        <span className="hover:text-red-200 text-red-500 font-bold">Engineering</span>, 
+        and <span className="hover:text-yellow-200 text-yellow-500 font-bold">Math</span>.
+         While also solving amazing problems, all as a <span className="hover:text-yellow-500">Community</span>!</p>
+
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
